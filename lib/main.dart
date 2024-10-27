@@ -1,4 +1,3 @@
-
 import 'package:firstapp/pages/reviews.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +11,6 @@ class doctor extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
       home: MyReviews(),
     );
   }
